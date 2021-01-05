@@ -1,0 +1,57 @@
+<html>
+
+<head>
+	<link rel="stylesheet" href="C:\Users\mdpat\Desktop\Web\styles.css">
+	<title>Programmer's Calculator</title>
+	<heading> Programmer's Calculator </heading>
+</head>
+
+
+<body>
+
+	<h2>Please enter a number in any one of the boxes and it will be converted into the other bases: </h2>
+	
+	<form>
+		<label for="binary"><labels>Binary:</labels></label>
+		<input type="text" id="binary" name="binary"><br><br><br>
+		
+		<label for="decimal"><labels>Decimal:</labels></label>
+		<input type="text" id="decimal" name="decimal"><br><br><br>
+		
+		<label for="hexadecimal"><labels>Hexadecimal:</labels></label>
+		<input type="text" id="hexadecimal" name="hexadecimal"><br><br><br>
+		
+		<button type="button" onclick="calculate">Convert</button>
+	</form>
+	
+	<script>
+		
+		function calculate(){
+			var inputbinary = "";
+			var inputdecimal = "";
+			var inputhexadecimal = "";
+		
+			if(document.getElementById("binary") != ""){
+				inputbinary = document.getElementById("binary");
+			}
+		
+			else if(document.getElementById("decimal") != ""){
+				inputdecimal = document.getElementById("decimal");
+			}
+		
+			else(document.getElementById("hexadecimal") != ""){
+				inputhexadecimal = document.getElementById("hexadecimal");
+			}
+		}
+		
+	</script>	
+	
+	<instructions>
+		Instructions:
+		
+		Enter a valid number in any one of the boxes and it will get converted into the other two.
+	</instructions>	
+	
+</body>
+	
+</html>

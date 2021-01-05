@@ -1,0 +1,21 @@
+heading{
+	text-align: center;
+	font-family: Serif, Garamond;
+	font-size: 50px;
+	color: red;
+}
+
+labels{
+	font-size: 25px;
+	color: blue;
+}
+
+instructions{
+	font-size: 20px;
+	color: yellow;
+}
+
+body{
+	background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+
